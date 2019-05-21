@@ -1,0 +1,309 @@
+/* definiciones de padding */
+.p-10 {
+  padding: 10%;
+}
+
+.p-5 {
+  padding: 5%;
+}
+
+.p-2 {
+  padding: 2%;
+}
+
+.p-spec{
+  padding: 0.5%;
+}
+
+
+.pl-2 {
+  padding-left: 2%;
+}
+
+
+.pt-2 {
+  padding-top: 2%;
+}
+
+.pt-4 {
+  padding-top: 4%;
+}
+
+/* definiciones de margin */
+
+.m-auto{
+  margin: auto;
+}
+
+.m-10 {
+  margin: 10%;
+}
+
+.m-5 {
+  margin: 5%;
+}
+
+.m-2 {
+  margin: 2%;
+}
+
+.m-side-10 {
+  margin: 0 10%;
+}
+
+.m-side-5 {
+  margin: 0 5%;
+}
+
+.m-side-2 {
+  margin: 0 2%;
+}
+
+.m-tb-10 {
+  margin: 10% 0;
+}
+
+
+.m-b-8 {
+  margin-bottom: 8%;
+}
+
+.m-b-4 {
+  margin-bottom: 4%;
+}
+
+.m-r-8{
+  margin-right: 5px;
+}
+
+/* fixes de box model */
+
+.fix-padding {
+  padding: 0px
+}
+
+.fix-margin {
+  margin: 0px;
+}
+
+.float-l {
+  float: left;
+}
+
+.float-r {
+  float: right;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-justify{
+  text-align: justify;
+}
+
+.align-center{
+  align-items: center;
+}
+
+.center-content {
+  justify-content: center;
+}
+
+
+/* estilos de texto */
+
+.upper-text {
+  text-transform: uppercase;
+}
+
+/* estilos de display */
+.d-flow {
+  display: flow-root;
+}
+
+.d-flex {
+  display: flex;
+  display: -webkit-flex;
+  /* Para navegadores webkit, como Safari */
+  flex-direction: row;
+  /* dirección del contenedor, en fila o en columnas*/
+  -webkit-flex-direction: row;
+  flex-wrap: wrap;
+  /* contenedor de múltiples líneas */
+  -webkit-flex-wrap: wrap;
+}
+
+.d-none {
+  display: none;
+}
+
+.d-block {
+  display: block;
+}
+
+.d-inline{
+  display: inline-block;
+}
+
+/* Font sizes */
+.fs-small{
+  font-size: 10px;
+}
+
+.fs-big{
+  font-size: 3em;
+}
+
+.fs-50 {
+  font-size: 50px;
+}
+
+.fs-40 {
+  font-size: 40px;
+}
+
+.fs-30 {
+  font-size: 30px;
+}
+
+.fs-20 {
+  font-size: 20px;
+}
+
+/* text colors */
+
+
+
+.txt-white {
+  color: white;
+}
+
+.txt-black {
+  color: black;
+  font-weight: bold;
+}
+
+/* bg colors */
+
+.bg-dark-black{
+  background-color: #000000;
+}
+
+.bg-black{
+  background-color: #404040;
+}
+
+.bg-gray {
+  background-color: #7F7F7F;
+}
+
+.bg-light {
+  background-color: #BFBFBF;
+}
+
+.bg-white {
+  background-color: #FFFFFF;
+}
+
+/* Style reset */
+
+.p-reset{
+  margin: 0;
+  padding: 0;
+}
+
+.l-style-none{
+  list-style: none;
+}
+
+/* Container styling */
+
+.container-lg{
+  width: 100%;
+  height: 100vh;
+}
+
+.container-sm{
+  width: 100%;
+  height: 30vh;
+}
+
+.container-flex-positioning{
+  justify-content: space-around;
+  align-items: center;
+}
+
+/* btn-styling  */
+
+.btn-transparent-white{
+  background-color: Transparent;
+  cursor: pointer;
+  color: white;
+  border: solid 1px white;
+  padding: 0.9%;
+  font-size: 16px;
+}
+
+.btn-transparent-black{
+  background-color: Transparent;
+  cursor: pointer;
+  color: black;
+  border: solid 1px black;
+  padding: 0.9%;
+  font-size: 16px;
+}
+
+.btn-black{
+  cursor: pointer;
+  color: white;
+  border: none;
+  padding: 0.9%;
+  font-size: 16px;
+}
+
+.btn-transparent-black:hover{
+  background-color: black;
+  cursor: pointer;
+  color: white;
+  border: solid 1px black;
+  padding: 0.9%;
+  font-size: 16px;
+}
+
+.btn-transparent-white:hover{
+  background-color: white;
+  cursor: pointer;
+  color: black;
+  border: solid 1px white;
+  padding: 0.9%;
+  font-size: 16px;
+}
+
+
+.nav-tab:hover{
+  cursor: pointer;
+}
+
+
+
+/* input-styling  */
+
+.input{
+  background-color: white;
+  color: black;
+  padding: 1%;
+}
+
+/* borders */
+
+.bdr-l{
+  border-left: #FFFFFF 1px solid;
+}
+
+.bdr-b{
+  width: 25%;
+  margin-left: auto;
+  margin-right: auto;
+  border-bottom: #FFFFFF 1px solid;
+}
